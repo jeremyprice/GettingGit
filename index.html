@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+	<html class="sl-root base export loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Getting Git: Slides</title>
+		<meta name="description" content="Slides">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+	</head>
+	<body class="reveal-viewport theme-font-sketch theme-color-silver-green">
+		<div class="reveal">
+			<div class="slides">
+				<section class="stack"><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 250px; height: auto;" data-block-id="293cccdc86c4362b49b0d47275771821"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Getting Git</h1>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="010758a4eb87460063a20dcdef62f8cd"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Intros</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="fbc36d240effe68cb745743550d9f595"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
+<ul>
+	<li>Name</li>
+	<li>Preferred OS</li>
+	<li>Favorite breakfast (cereal)</li>
+</ul>
+</div></div></section></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="c44b904b11e80e4707a795dce71cb4c9"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Learning Objectives</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="b5cccb6433fff299213d7dc610fa49e5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
+<ul>
+	<li>What is source control</li>
+	<li>What is Git and Github</li>
+	<li>Day to day Git usage</li>
+	<li>How to create and manage repositories</li>
+	<li>How to handle conflicts and merges</li>
+</ul>
+</div></div></section><section class="stack"><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="5514ea185f3cd3c8459afca5953b5b0b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>What is Version Control</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="d327dfab79568aa7425ffec0e33a52fc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>A time machine for files and projects</li>
+	<li>Snapshots/checkpoints of the project as a timeline</li>
+	<li>Also referred to as revision control</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 33px; height: auto;" data-block-id="8986e426d590b8250d4c0652d81f2550"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>What is Version Control</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 779.63924963925px; height: 557px; left: 90px; top: 118px;" data-block-id="8c5c494637d7f2e1be0f9faa41dc1b2e"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="970" data-natural-height="693" style="" data-src="getting-git/1615842-what-is-vcs.png"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="0400481ee847c79edc3872bd5342a4b9"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>What can we use Version Control for?</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 232px; height: auto;" data-block-id="63905afb345928709ee62374a2fa948a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
+<ul>
+	<li class="fragment" data-fragment-index="0">Different kinds of files
+	<ul>
+		<li style="color:rgb(17, 17, 17)">Text files
+		<ul>
+			<li style="color:rgb(17, 17, 17)">Scripts, config files, software, etc.</li>
+		</ul>
+		</li>
+		<li style="color:rgb(17, 17, 17)">Binary files (with caveats)</li>
+		<li style="color:rgb(17, 17, 17)">Images / logos (with caveats)</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1">Files that are shared with others
+	<ul>
+		<li>Anything that can be changed by multiple folks</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="2">Managing the flow of changes
+	<ul>
+		<li>Deploying known versions of files</li>
+	</ul>
+	</li>
+</ul>
+</div></div></section></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="53bb12d63547b76f59a57e45e241ddd8"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Why use Version Control?</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="c5f876407f99a993f71460f9d2fcad42" style="min-width: 30px; min-height: 30px; width: 822.222222222222px; height: 296px; left: 69px; top: 271px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="650" data-natural-height="234" style="" data-src="getting-git/1616023-pasted-from-clipboard.png"></div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":465562,"slug":"getting-git","title":"Getting Git","description":"Learning Git and GitHub","visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/c2c530/decks.jpg","view_count":0,"user":{"id":105368,"username":"racku","name":"Rackspace University","description":"","thumbnail_url":"https://www.gravatar.com/avatar/4fdd35b37f5a9854774386e628b420fe?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":true,"enterprise":false,"enterprise_manager":false,"settings":{"id":245,"present_controls":true,"present_upsizing":true},"registered":true},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"sketch","theme_color":"silver-green","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"should_loop":false,"rtl":false,"version":2,"notes":{}}};
+			SLConfig.current_user = {
+				name: "Rackspace University",
+				username: "racku",
+				pro: true
+			};
+		</script>
+
+		<script src="lib/head.min.js"></script>
+		<script src="lib/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				mouseWheel: false,
+
+				autoSlide: SLConfig.deck.auto_slide_interval || 0,
+				autoSlideStoppable: true,
+
+				rolling_links: SLConfig.deck.rolling_links || true,
+				center: SLConfig.deck.center || false,
+				loop: SLConfig.deck.should_loop || false,
+				rtl: SLConfig.deck.rtl || false,
+
+				transition: SLConfig.deck.transition,
+				backgroundTransition: SLConfig.deck.background_transition,
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+			// Make Slides speaker notes available in the reveal.js speaker view
+			if( SLConfig.deck.notes ) {
+				[].forEach.call( document.querySelectorAll( '.reveal .slides section' ), function( slide ) {
+
+					var value = SLConfig.deck.notes[ slide.getAttribute( 'data-id' ) ];
+					if( value && typeof value === 'string' ) {
+						slide.setAttribute( 'data-notes', value );
+					}
+
+				} );
+			}
+		</script>
+
+		
+
+	</body>
+</html>
