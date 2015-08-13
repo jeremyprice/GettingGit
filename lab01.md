@@ -1,9 +1,9 @@
 # Lab 1
 
 In this lab you will do the following:
-1. Install Git
-1. Configure Git
-1. Learn the basic command line usage for Git
+* Install Git
+* Configure Git
+* Learn the basic command line usage for Git
 
 ## Prerequisites
 For this lab you will need:
