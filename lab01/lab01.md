@@ -21,7 +21,7 @@ First, determine if you have Git installed.  Issue the following command at a te
 $ git --version
 ```
 
-You can skip the install step and continue to the [Configure Git](#lab01#Configure-Git) section if you get a response like the following:
+You can skip the install step and continue to the [Configure Git](#configure-git) section if you get a response like the following:
 `git version 2.5.0`
 
 #### Installing Git
