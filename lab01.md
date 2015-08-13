@@ -196,5 +196,24 @@ Date:   Thu Aug 13 11:47:00 2015 -0500
     Added a very informative first file
 ```
 
+### Check out the differences
+It is useful to be able to see what you've changed in a repository in order to select the proper changes for staging and committing.  Create a new file called `new_file`, stage `new_file`, commit the initial file.  Add another line to the file and ask Git for the differences.
+```console
+$ echo "see me in the diff" > new_file
+$ git add new_file
+$ git commit -m "added new file for diffing"
+$ echo "new line" >> new_file
+$ git diff .
+```
+```diff
+diff --git a/new_file b/new_file
+index bf3322c..a31eb3c 100644
+--- a/new_file
++++ b/new_file
+@@ -1 +1,2 @@
+ see me in the diff
++new line
+```
+
 ## Conclusions
 In this lab you created your own repository, added files, changed files, looked at history, checked status, and committed changes using Git.  Feel free to try all those commands in other different ways and experiment in your new repository.
