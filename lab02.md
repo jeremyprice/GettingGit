@@ -1,12 +1,12 @@
 # Lab 2
 
 In this lab you will do the following:
-1. Investigate branching and merging in Git
+* Investigate branching and merging in Git
 
 ## Prerequisites
 For this lab you will need:
 * A computer with terminal access and Git installed
-* Basic knowledge of the Git command line [See Lab 1](../lab01/lab01.md)
+* Basic knowledge of the Git command line [See Lab 1](lab01.md)
 * A willingness to dive in and try stuff
 
 ## Tasks
@@ -14,7 +14,7 @@ For this lab you will need:
 ### Create and initialize a repository
 Create a new directory named `lab02` to work in and initialize a repository there.  Add a file called `README` and commit it to the repository.
 
-> [See Lab 1](../lab01/lab01.md) if you need a refresher on the steps
+> [See Lab 1](lab01.md) if you need a refresher on the steps
 
 ```console
 $ mkdir lab02 && cd lab02
