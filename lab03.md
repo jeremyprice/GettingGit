@@ -18,10 +18,10 @@ If you don't have an account on GitHub, go [here](https://github.com/join) to cr
 Once you have an account on GitHub post your account username into the class chat in [rudojo](http://rudojo.com) so I can add you to the collaborator list.
 
 ### Clone an existing repository from GitHub
-Clone [this](https://github.com/jeremyprice/GettingGit) repository from GitHub.
+Clone [this](https://github.com/jeremyprice/class_scratchpad) repository from GitHub.
 ```console
-$ git clone https://github.com/jeremyprice/GettingGit
-Cloning into 'GettingGit'...
+$ git clone https://github.com/jeremyprice/class_scratchpad
+Cloning into 'class_scratchpad'...
 remote: Counting objects: 184, done.
 remote: Compressing objects: 100% (163/163), done.
 remote: Total 184 (delta 36), reused 145 (delta 17), pack-reused 0
@@ -39,7 +39,7 @@ $ git checkout -b {my_cool_branchname}
 $ git push origin
 ```
 
-Now that your changes are up on GitHub, file a Pull Request based on your new branch.  Go to the [repo](https://github.com/jeremyprice/GettingGit) to file your Pull Request.  While you are there be sure to comment on the Pull Requests from your fellow classmates.
+Now that your changes are up on GitHub, file a Pull Request based on your new branch.  Go to the [repo](https://github.com/jeremyprice/class_scratchpad) to file your Pull Request.  While you are there be sure to comment on the Pull Requests from your fellow classmates.
 
 > Note: For more info on Pull Requests go to the [GitHub help page](https://help.github.com/articles/using-pull-requests/)
 
