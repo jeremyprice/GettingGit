@@ -18,7 +18,7 @@ If you don't have an account on GitHub, go [here](https://github.com/join) to cr
 Once you have an account on GitHub post your account username into the class chat in [rudojo](http://rudojo.com) so I can add you to the collaborator list.
 
 ### Clone an existing repository from GitHub
-Clone [this](https://github.com/jeremyprice/class_scratchpad) repository from GitHub.
+Clone [the class scratchpad](https://github.com/jeremyprice/class_scratchpad) repository from GitHub.
 ```console
 $ git clone https://github.com/jeremyprice/class_scratchpad
 Cloning into 'class_scratchpad'...
@@ -32,11 +32,13 @@ Checking connectivity... done.
 > Note: Git created a directory to match the name of the repository you cloned and put the repository in there.
 
 ### Branch, edit, and push
-Create a new branch to make some changes (make up your own branch name).  Make some changes in your branch and push those up to GitHub.
+Create a new branch to make some changes (make up your own branch name).  Make some changes in your branch, stage and commit those changes, and push those up to GitHub.
 ```console
 $ git checkout -b {my_cool_branchname}
 ... make some changes ...
-$ git push origin
+$ git add {all_the_changes}
+$ git commit -m "description of the changes"
+$ git push origin {my_cool_branchname}
 ```
 
 Now that your changes are up on GitHub, file a Pull Request based on your new branch.  Go to the [repo](https://github.com/jeremyprice/class_scratchpad) to file your Pull Request.  While you are there be sure to comment on the Pull Requests from your fellow classmates.
