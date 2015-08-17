@@ -22,7 +22,9 @@ $ git --version
 ```
 
 You can skip the install step and continue to the [Configure Git](#configure-git) section if you get a response like the following:
+
 `git version 2.5.0`
+> Note: The version identifier returned by your system will be system-dependent.  Any version of `git` is acceptable to accomplish this lab, and you do not need a specific version.
 
 #### Installing Git
 
