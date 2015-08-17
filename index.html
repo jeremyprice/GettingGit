@@ -12,9 +12,10 @@
 	<body class="reveal-viewport theme-font-sketch theme-color-silver-green">
 		<div class="reveal">
 			<div class="slides">
-				<section class="stack"><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 250px; height: auto;" data-block-id="293cccdc86c4362b49b0d47275771821"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+				<section class="stack"><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 250px; height: auto;" data-block-id="293cccdc86c4362b49b0d47275771821"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
 <h1>Getting Git</h1>
-</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="010758a4eb87460063a20dcdef62f8cd"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="5bee732196325baeec3b7f241a61be41" style="min-width: 30px; min-height: 30px; width: 360px; height: 150.32967032967px; left: 300px; top: 369px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="910" data-natural-height="380" style="" data-src="getting-git/1645886-Git-Logo-2Color.png"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="010758a4eb87460063a20dcdef62f8cd"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
 <h2>Intros</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="fbc36d240effe68cb745743550d9f595"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
@@ -22,7 +23,7 @@
 	<li>Name</li>
 	<li>Job/Role</li>
 	<li>Length of time at Rackspace</li>
-	<li>Favorite breakfast (cereal)</li>
+	<li>What you hope to get from this class</li>
 </ul>
 </div></div></section></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="c44b904b11e80e4707a795dce71cb4c9"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
 <h2>Learning Objectives</h2>
@@ -225,10 +226,18 @@
 		<li>Check in (commit) changes periodically</li>
 	</ul>
 	</li>
+	<li>To commit your changes first you have to stage them
+	<ul>
+		<li>Tell Git which changes you will be committing</li>
+	</ul>
+	</li>
 </ul>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 378px;" data-block-id="bb3c1f29ddb9657cab658591f7095b31"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 574px;" data-block-id="bb3c1f29ddb9657cab658591f7095b31"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
 <pre style="text-align:center">git commit -m "my cool comment"</pre>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 490px;" data-block-id="ea135025ed455d101df4b2810bfdbea0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
+<pre style="text-align:center">git add my_file.txt image.jpg</pre>
 </div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="4107865c650583b24a55da43092ca6bc"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
 <h2>Lab 1</h2>
 </div></div>
@@ -238,13 +247,121 @@
 <h1>Lunch</h1>
 </div></div></section></section><section class="stack"><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="fc51e4a0f7eb08be72081049002a3ecf"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
 <h1>Branching, Merging, and Conflicts</h1>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="6c4af6073eae5da088a587fb31325d76"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Workflow Continued</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="c0db7c87578101e1daf99c1bdd9f155e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
+<ul>
+	<li>Working linearly on a project doesn't scale well</li>
+	<li>We need to be able to work on parallel sets of changes</li>
+	<li>Thankfully, we have branching and merging</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="48585dc36c7e56d6947e01a2c5d5c42c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Branching and Merging Illustrated</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="79047c8d5de5c4032891d3ce85db0b8e" style="min-width: 30px; min-height: 30px; width: 792px; height: 330px; left: 84px; top: 325px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="720" data-natural-height="300" data-src="getting-git/1645840-git-history.png"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="1cd56cc3fc781adfa20e693eba10c13e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Branching</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="b5baa126bc60bd7ec27e81d2ac0831e8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>Creating a branch called my_branch</li>
+</ul>
+
+<p> </p>
+
+<ul>
+	<li>Make that branch the active branch</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 316px;" data-block-id="242d3d15d049ffa59d544ff0b5df3b9a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
+<pre style="text-align:center">git branch my_branch</pre>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 412px;" data-block-id="e33a3ec642be9669005c7137af0e47dd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
+<pre style="text-align:center">git checkout my_branch</pre>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="d7273f56c4a8f471bd5c9e2a2049c36c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Branching</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="aae94ca0148db9498e9e3040300d330c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>Shortcut: Creating a branch called my_branch and make it active</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 640px; left: 160px; top: 352px;" data-block-id="4aba6efba25b59989ddf29763af180eb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
+<pre style="text-align:center">git checkout -b my_branch</pre>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="f954c6ea8fdaa25f2b3daea357ecd638"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Merging Branches</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="6a88aa541b7e0b2c61b332ab0dd285e6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>Merging branches asks Git to take the changes from one branch and put them in the other</li>
+	<li>Merge changes from my_branch into master</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 640px; left: 160px; top: 391px;" data-block-id="47129e56650d6ecd093a5dafcaf28643"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
+<pre style="text-align: center;">git checkout master
+git merge my_branch</pre>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="154927d201bf198271c18db8c641c470" style="min-width: 30px; min-height: 30px; width: 542.4px; height: 226px; left: 209px; top: 460px;"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="720" data-natural-height="300" style="" data-src="getting-git/1645840-git-history.png"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="afd06106b23deb489cec503e2ccef040"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>A note about the master branch</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="983af23cd57e16137f604883e1219296"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
+<ul>
+	<li>The master branch is special</li>
+	<li>It is considered the core branch that changes are merged into</li>
+	<li>By convention, master is usually a known state of the files in the repository</li>
+	<li>It is not the only branch you can merge changes into</li>
+	<li>From Git's perspective it is just any old branch</li>
+</ul>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="0a6a22a14fe1bd00e1d22973f2e5fa1c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>Conflicts</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 264px; height: auto;" data-block-id="3e87f321035eec43a056097c02b9c624"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
+<ul>
+	<li>Merge conflicts happen when you try to merge changes that overlap from one branch to another </li>
+	<li>Example: in your README file
+	<ul>
+		<li>
+		<pre>Branch A: Hello world!</pre>
+		</li>
+		<li>
+		<pre>Branch B:Goodbye world!</pre>
+		</li>
+	</ul>
+	</li>
+	<li>Git can't tell which one it should go with, so it tells you to pick</li>
+</ul>
 </div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="c74532484314a94a6a3e6468ee79ecfb"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
 <h2>Lab 2</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 264px; height: auto;" data-block-id="d4071256f3f2fb5a8f7e5afc462d34a6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
 <p><a href="https://github.com/jeremyprice/GettingGit/blob/master/lab02.md" target="_blank">https://github.com/jeremyprice/GettingGit/blob/master/lab02.md</a></p>
-</div></div></section></section><section class="stack"><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="04defae2b77a9352c8ba442495ab2358"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+</div></div></section></section><section class="stack"><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="04defae2b77a9352c8ba442495ab2358"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
 <h1>GitHub for Collaboration</h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ab8e6981e4cd92f7458128bfa20c9ecd" style="min-width: 30px; min-height: 30px; width: 360px; height: 210.6px; left: 294px; top: 35px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="400" data-natural-height="234" style="" data-src="getting-git/1645892-GitHub.jpg"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="b89f1168704b82b0ab17afac9ccbe1a5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
+<h2>GitHub</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 140px; height: auto;" data-block-id="7c2f75cea18b3f456ae26e399a63643f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text">
+<ul>
+	<li>GitHub is a web-based Git repository hosting service
+	<ul>
+		<li>Centralized repository</li>
+	</ul>
+	</li>
+	<li>Social coding features
+	<ul>
+		<li>pull requests</li>
+		<li>documentation (markdown)</li>
+		<li>wikis</li>
+		<li>issue tracking</li>
+		<li>small websites</li>
+		<li>history browsing</li>
+		<li>code reviews</li>
+	</ul>
+	</li>
+	<li>Example: <a href="https://github.com/jeremyprice/GettingGit" target="_blank">https://github.com/jeremyprice/GettingGit</a>
+</li>
+</ul>
 </div></div></section><section><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 190px; height: auto;" data-block-id="f2606e186458a99c274ea7d0776243d4"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text">
 <h2>Lab 3</h2>
 </div></div>
