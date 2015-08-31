@@ -207,6 +207,7 @@ $ git commit -m "added new file for diffing"
 $ echo "new line" >> new_file
 $ git diff .
 ```
+*results*:
 ```diff
 diff --git a/new_file b/new_file
 index bf3322c..a31eb3c 100644
