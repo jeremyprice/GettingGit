@@ -32,12 +32,13 @@ Checking connectivity... done.
 > Note: Git created a directory to match the name of the repository you cloned and put the repository in there.
 
 ### Branch, edit, and push
-Create a new branch to make some changes (make up your own branch name).  Make some changes in your branch, stage and commit those changes, and push those up to GitHub.
+Create a new branch to make some changes (make up your own branch name).  Make some changes in your branch, stage and commit those changes on your branch.  Push those changes up to GitHub.
 ```console
 $ git checkout -b {my_cool_branchname}
 ... make some changes ...
 $ git add {all_the_changes}
 $ git commit -m "description of the changes"
+... make sure you add and commit some changes to your branch, otherwise there will be nothing to push to GitHub ...
 $ git push origin {my_cool_branchname}
 ```
 
