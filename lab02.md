@@ -109,17 +109,17 @@ Deleted branch fancy_branch (was 835d39e).
 ### Work with conflicts
 We are going to create some artificial conflicts in our repository so you can see how to  work through a conflict scenario.
 
-Create a branch called `conflict` and make it the active branch (using the shortcut method).
+Create a branch called `nice_feature` and make it the active branch (using the shortcut method).
 ```console
-$ git checkout -b conflict
+$ git checkout -b nice_feature
 ```
 
 Make a change to the README file so that the contents are a the single line.  Stage and commit those changes.
 ```console
 $ echo "These are some changes that will conflict.  Conflict is bad." > README
 $ git add README
-$ git commit -m "incoming conflicts"
-[conflict 877d7d1] incoming conflicts
+$ git commit -m "Best change to README evar!"
+[nice_feature 877d7d1] Best change to README evar!
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
@@ -134,9 +134,9 @@ $ git commit -m "master changes to README"
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-Our repository now has changes on the `conflict` branch that are different from, and in direct conflict with, the changes in the `master` branch.  Let's try to merge the changes from `conflict` into `master`.
+Our repository now has changes on the `nice_feature` branch that are different from, and in direct conflict with, the changes in the `master` branch.  Let's try to merge the changes from `nice_feature` into `master`.
 ```console
-$ git merge conflict
+$ git merge nice_feature
 Auto-merging README
 CONFLICT (content): Merge conflict in README
 Automatic merge failed; fix conflicts and then commit the result.
@@ -148,10 +148,10 @@ Git gave up on us.  It found the changes were in conflict and said, "It's your p
 Seemingly mundane change.
 =======
 These are some changes that will conflict.  Conflict is bad.
->>>>>>> conflict
+>>>>>>> nice_feature
 ```
 
-`HEAD` refers to the latest commit in `master` since it is the branch we are merging into.  The lines between `<<<<<<< HEAD` and `=======` represent the change from `master`.  The lines between `=======` and `>>>>>>> conflict` represent the changes from the `conflict` branch. You now have to choose the lines you want to keep, so edit the file to represent the text you want (remove all the lines inserted by Git to show you the conflict).  After editing, the file should contain a single line:
+`HEAD` refers to the latest commit in `master` since it is the branch we are merging into.  The lines between `<<<<<<< HEAD` and `=======` represent the change from `master`.  The lines between `=======` and `>>>>>>> nice_feature` represent the changes from the `nice_feature` branch. You now have to choose the lines you want to keep, so edit the file to represent the text you want (remove all the lines inserted by Git to show you the conflict).  After editing, the file should contain a single line:
 ```
 Seemingly mundane change.
 ```
@@ -177,7 +177,7 @@ Now take a look at the history to see how it was affected by our conflict fun:
 | | Author: Joe Racker <Joe.Racker@rackspace.com>
 | | Date:   Thu Aug 13 16:42:09 2015 -0500
 | |
-| |     incoming conflicts
+| |     Best change to README evar!
 | |
 * | commit 30d0315b541b54e7ea413dcb7780857127890f91
 |/  Author: Joe Racker <Joe.Racker@rackspace.com>
