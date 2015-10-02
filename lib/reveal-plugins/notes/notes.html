@@ -59,6 +59,7 @@
 				right: 0;
 				width: 35%;
 				height: 60%;
+				overflow: auto;
 
 				font-size: 18px;
 			}
@@ -82,6 +83,17 @@
 					margin-bottom: 10px;
 					padding: 10px 16px;
 					padding-bottom: 20px;
+					cursor: pointer;
+				}
+
+				.speaker-controls-time .reset-button {
+					opacity: 0;
+					float: right;
+					color: #666;
+					text-decoration: none;
+				}
+				.speaker-controls-time:hover .reset-button {
+					opacity: 1;
 				}
 
 				.speaker-controls-time .timer,
@@ -144,7 +156,7 @@
 		<div id="upcoming-slide"><span class="label">UPCOMING:</span></div>
 		<div id="speaker-controls">
 			<div class="speaker-controls-time">
-				<h4 class="label">Time</h4>
+				<h4 class="label">Time <span class="reset-button">Click to Reset</span></h4>
 				<div class="clock">
 					<span class="clock-value">0:00 AM</span>
 				</div>
@@ -227,6 +239,7 @@
 					// No need for updating the notes in case of fragment changes
 					if ( data.notes ) {
 						notes.classList.remove( 'hidden' );
+						notesValue.style.whiteSpace = data.whitespace;
 						if( data.markdown ) {
 							notesValue.innerHTML = marked( data.notes );
 						}
@@ -271,6 +284,7 @@
 						'progress=false',
 						'history=false',
 						'transition=none',
+						'autoSlide=0',
 						'backgroundTransition=none'
 					].join( '&' );
 
@@ -339,6 +353,12 @@
 
 					// Then update every second
 					setInterval( _updateTimer, 1000 );
+
+					timeEl.addEventListener( 'click', function() {
+						start = new Date();
+						_updateTimer();
+						return false;
+					} );
 
 				}
 
