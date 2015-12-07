@@ -34,6 +34,7 @@ Checking connectivity... done.
 ### Branch, edit, and push
 Create a new branch to make some changes (make up your own branch name).  Make some changes in your branch, stage and commit those changes on your branch.  Push those changes up to GitHub.
 ```console
+$ cd class_scratchpad
 $ git checkout -b {my_cool_branchname}
 ... make some changes ...
 $ git add {all_the_changes}
