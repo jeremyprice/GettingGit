@@ -119,7 +119,7 @@ Make a change to the README file so that the contents are a the single line.  St
 ```console
 $ echo "These are some changes that will conflict.  Conflict is bad." > README
 $ git add README
-$ git commit -m "Best change to README evar!"
+$ git commit -m 'Best change to README evar!'
 [nice_feature 877d7d1] Best change to README evar!
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
