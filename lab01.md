@@ -130,7 +130,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Add our new file and check the status.
 ```console
-$ git add goodbye_world
+$ git add goodbye_world.txt
 $ git status
 On branch master
 Changes to be committed:

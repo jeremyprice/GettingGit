@@ -66,6 +66,7 @@ Look at the differences between your branch `fancy_branch` and the `master` bran
 ```console
 $ git diff master
 ```
+##### Output of the `git diff` command:
 ```diff
 diff --git a/README b/README
 index e69de29..78784bd 100644
