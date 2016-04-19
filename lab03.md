@@ -15,7 +15,7 @@ For this lab you will need:
 ### Create an account on GitHub
 If you don't have an account on GitHub, go [here](https://github.com/join) to create one.
 
-Once you have an account on GitHub post your account username into the class chat in [rudojo](http://rudojo.com) so I can add you to the collaborator list.
+Once you have an account on GitHub let me know your account username so I can add you to the collaborator list.  You can send it to me via Slack or tell me in class.
 
 ### Clone an existing repository from GitHub
 Clone [the class scratchpad](https://github.com/jeremyprice/class_scratchpad) repository from GitHub.
