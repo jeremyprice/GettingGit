@@ -167,6 +167,7 @@ $ git commit -m "resolved those nasty conflicts"
 
 Now take a look at the history to see how it was affected by our conflict fun:
 ```console
+$ git log --graph
 *   commit 24d94801173d5455d605279a6757e5895e360638
 |\  Merge: 30d0315 877d7d1
 | | Author: Joe Racker <Joe.Racker@rackspace.com>
