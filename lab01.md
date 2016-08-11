@@ -28,19 +28,7 @@ You can skip the install step and continue to the [Configure Git](#configure-git
 
 #### Installing Git
 
-Make sure you have the Git command line binaries installed on your machine.  Find on your flavor of Linux below and issue the proper commands.
-
-If you need more detailed instructions, or your OS isn't listed here, have a look at http://git-scm.com/download
-
-#### Install on Ubuntu
-```console
-$ sudo apt-get -y install git
-```
-
-#### Install on CentOS
-```console
-$ sudo yum -y install git
-```
+Head over to [Git installation instructions](install.md) to make sure you have Git installed on your system.
 
 ### Configure Git
 Git requires that a few config items are set in order for us to use it.  It needs to know who you are so it can tack that information onto all your work.
