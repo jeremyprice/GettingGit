@@ -7,3 +7,5 @@ View the slides at http://jeremyprice.github.io/GettingGit/
 * [Lab 01 worksheet](lab01.md)
 * [Lab 02 worksheet](lab02.md)
 * [Lab 03 worksheet](lab03.md)
+
+Don't forget to remove this line
