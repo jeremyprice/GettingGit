@@ -119,8 +119,8 @@ Make a change to the README file so that the contents are a the single line.  St
 ```console
 $ echo "These are some changes that will conflict.  Conflict is bad." > README
 $ git add README
-$ git commit -m "Best change to README evar!"
-[nice_feature 877d7d1] Best change to README evar!
+$ git commit -m "Best change to README evar"
+[nice_feature 877d7d1] Best change to README evar
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
@@ -179,7 +179,7 @@ $ git log --graph
 | | Author: Joe Racker <Joe.Racker@rackspace.com>
 | | Date:   Thu Aug 13 16:42:09 2015 -0500
 | |
-| |     Best change to README evar!
+| |     Best change to README evar
 | |
 * | commit 30d0315b541b54e7ea413dcb7780857127890f91
 |/  Author: Joe Racker <Joe.Racker@rackspace.com>
