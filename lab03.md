@@ -42,6 +42,8 @@ $ git commit -m "description of the changes"
 ... make sure you add and commit some changes to your branch, otherwise there will be nothing to push to GitHub ...
 $ git push origin {my_cool_branchname}
 ```
+Now that your changes are up on GitHub, file a Pull Request based on your new branch.  Go to the [repo](https://github.com/gocodeup/class_scratchpad) to file your Pull Request.  While you are there be sure to comment on the Pull Requests from your fellow classmates.
 
+> Note: For more info on Pull Requests go to the [GitHub help page](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 ## Conclusions
 In this lab you experimented with collaborating with others in GitHub.  Feel free to try all those commands in other different ways and experiment in your new repository.
