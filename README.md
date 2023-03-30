@@ -1,7 +1,5 @@
 # GettingGit
-Rackspace training for Git and GitHub
-
-View the slides at http://jeremyprice.github.io/GettingGit/
+Training for Git and GitHub
 
 # Labs
 * [Lab 01 worksheet](lab01.md)
