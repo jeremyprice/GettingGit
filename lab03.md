@@ -20,7 +20,7 @@ Once you have an account on GitHub let me know your account username so I can ad
 ### Clone an existing repository from GitHub
 Clone the class scratchpad repository from GitHub. In the command below replace "cohort" with your cohort name.
 ```console
-$ git clone https://github.com/gocodeup/class_scratchpad-cohort
+$ git clone https://github.com/CodeupClassroom/class_scratchpad-cohort
 Cloning into 'class_scratchpad-cohort'...
 remote: Counting objects: 184, done.
 remote: Compressing objects: 100% (163/163), done.
